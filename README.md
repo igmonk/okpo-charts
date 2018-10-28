@@ -4,7 +4,17 @@ FIXME: description
 
 ## Installation
 
-Download from http://example.com/FIXME.
+1. Run the following command if `boot` is not installed:
+
+    ```
+    brew install boot-clj
+    ```
+
+2. Clone repo:
+
+    ```
+    git clone git@github.com:igor-moiseyenko/okpo-charts.git
+    ```
 
 ## Usage
 
