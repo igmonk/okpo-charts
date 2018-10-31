@@ -1,7 +1,8 @@
 (ns okpo-charts.core
-  (:gen-class))
+  (:gen-class)
+  (:require [okpo-charts.main-frame :as mf]))
 
 (defn -main
   "I don't do a whole lot ... yet."
   [& args]
-  (println "Hello, World!"))
+  (mf/show-frame))
