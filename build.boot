@@ -6,7 +6,9 @@
           :dependencies   '[[org.clojure/clojure "1.9.0"]
                             [org.clojure/data.csv "0.1.4"]
                             [adzerk/boot-test "1.2.0" :scope "test"]
-                            [onetom/boot-lein-generate "0.1.3" :scope "test"]])
+                            [onetom/boot-lein-generate "0.1.3" :scope "test"]
+                            [jfree/jfreechart "1.0.13"]
+                            [seesaw "1.5.0"]])
 
 (task-options!
  aot {:namespace   #{'okpo-charts.core}}
